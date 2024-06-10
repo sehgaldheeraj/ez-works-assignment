@@ -1,0 +1,11 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 720px) {
+  .main-container {
+    flex-direction: column;
+  }
+}
